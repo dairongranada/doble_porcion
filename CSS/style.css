@@ -1,0 +1,69 @@
+
+*{
+    margin: 20px;
+}
+
+body{
+    background: black;
+    width: 1200px ;
+    margin: 0 auto;
+}
+
+
+
+
+p{
+    color: blanchedalmond;
+}
+
+/* -------------BARRA DE NAVEGACON---------------- */
+
+
+
+nav ul{
+    width: 360px;
+    margin: 0 auto;
+}
+
+nav ul a{
+    text-decoration: none;  /*Quita el subrayado de los enlaces*/
+    color: red;
+    background:#FFF;
+    line-height: 80px;
+    padding: 7px;
+    margin:0 20px;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px #333; /*Añade sombra al contenedor*/
+    font-weight: bold;
+
+}
+
+nav ul a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
+    color: #FFF;
+    background: #000;
+    box-shadow: 0 0 0 #000;
+}
+
+
+/* ------------- CLASES ---------------- */
+
+
+.primera_imagen{
+    margin: 10px auto 10px;
+    display: block; 
+}
+
+.logoprincipal{
+    margin: 10px auto 10px re;
+    left: 100px;
+}
+
+
+/* -------------TEXTOS---------------- */
+
+
+h1{
+    color: blanchedalmond;
+    text-align: center;
+}
+
