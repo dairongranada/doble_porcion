@@ -21,8 +21,9 @@ p{
 
 
 nav ul{
-    width: 360px;
-    margin: 0 auto;
+
+    margin: 10% center;
+    background-color: black;
 }
 
 nav ul a{
@@ -48,14 +49,22 @@ nav ul a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
 /* ------------- CLASES ---------------- */
 
 
+.floatindex{
+    float: left;
+    margin-top: 1cm;
+}
+
 .primera_imagen{
     margin: 10px auto 10px;
     display: block; 
+    float: left;
 }
 
+
 .logoprincipal{
-    margin: 10px auto 10px re;
-    left: 100px;
+    margin: 50px 5% 0 ;
+    left: 10px;
+    float: left;
 }
 
 
@@ -65,5 +74,9 @@ nav ul a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
 h1{
     color: blanchedalmond;
     text-align: center;
+}
+
+p{
+    font-size: x-large;
 }
 
