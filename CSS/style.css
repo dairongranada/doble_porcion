@@ -1,34 +1,39 @@
-
-*{
-    margin: 20px;
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background: black;
-    width: 1200px ;
-    margin: 0 auto;
+    background: url("../images/fondoatras8.webp") -30px -40px;
+    background-size: cover;
+    background-attachment: fixed;
+     
 }
 
-
-
-
-p{
-    color: blanchedalmond;
+h1{
+    font-size: 50px;
+    margin: 91px 79px;
+    color: white;
+    text-shadow: 3px 3px 3px white;
 }
 
-/* -------------BARRA DE NAVEGACON---------------- */
-
+/* ------------------------- MENÚ ------------------------- */
 
 
 nav ul{
-
-    margin: 10% center;
-    background-color: black;
+    width: 360px;
+    margin: 0 auto;
 }
 
-nav ul a{
+nav ul li{
+    display: inline; /*Pone todos los elementos en la misma línea*/
+    list-style: none;   /*Quita las viñetas de la lista*/
+}
+
+nav ul li a{
     text-decoration: none;  /*Quita el subrayado de los enlaces*/
-    color: red;
+    color:black; 
     background:#FFF;
     line-height: 80px;
     padding: 7px;
@@ -36,47 +41,152 @@ nav ul a{
     border-radius: 5px;
     box-shadow:2px 2px 2px #333; /*Añade sombra al contenedor*/
     font-weight: bold;
-
 }
 
-nav ul a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
+nav ul li a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
     color: #FFF;
     background: #000;
     box-shadow: 0 0 0 #000;
 }
 
-
-/* ------------- CLASES ---------------- */
-
-
-.floatindex{
-    float: left;
-    margin-top: 1cm;
+section{
+    padding:0 30px 20px;
 }
 
-.primera_imagen{
-    margin: 10px auto 10px;
-    display: block; 
-    float: left;
-}
-
-
-.logoprincipal{
-    margin: 50px 5% 0 ;
-    left: 10px;
-    float: left;
-}
-
-
-/* -------------TEXTOS---------------- */
-
-
-h1{
-    color: blanchedalmond;
+section div{
     text-align: center;
 }
 
-p{
-    font-size: x-large;
+section div img{
+    width: 500px; /*ancho de imagen*/
+    margin: 20px;
 }
 
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h5{ 
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+footer{   
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* --------------------- IDENTIFICADORES -------------------- */
+
+
+#fondo-header{
+    text-align: center;
+}
+
+#fondo-header h1{
+    float: right;
+}
+
+
+/* ------------------------- CLASES ------------------------- */
+
+.principal{
+    width: 1000px;  /*ancho de la página*/
+    margin: 20px auto;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 10px;
+    background: black;
+}
+
+.imgprincipal{
+    width: 1010px;
+    margin: 30px -80px;
+    border-radius: 20px;
+    
+}
+
+.TextHistoria p{
+    text-align: justify;
+    color: white;
+}
+
+.imgportada{
+    width: 600px;
+    height: auto;
+}
+
+.centrado{
+    margin:10px;
+   color: beige;
+}
+
+.disc img{
+    width: 200px;
+}
+
+.disc li{
+    margin: 20px 65px 20px 47px;
+    list-style: none;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.flotante{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.ParrF{
+    padding-top: 55px;
+    padding-left: 20px;
+}
+
+.temas{
+    float: left;
+    width: 180px  10px; 
+}
+
+.temas a{
+    text-decoration: none;
+    color: white;
+}
+
+.temas a:hover{
+    color: white;
+}
+
+.mp4{
+    float: right;
+    margin: 30px 5px 80px; 
+ 
+}
+
+.parrafomp4{
+    text-align: justify;
+    margin: 100px 5px 80px; 
+    width: 150px  10px; 
+   
+}
+
+/* ------------------------- Registro ------------------------- */
+
+.textregistro{
+    color: beige;
+    text-align: center;
+    margin: 50px;
+}
