@@ -5,50 +5,52 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-	<title>BSB || Historia</title>
+	<title>Historia</title>
 </head>
 <body>
-	<main style="animation-play-state: running;" class="principal">
+	<main style="animation-play-state: running;" class="main">
+		<header id="fondo-header">
+			<a href="/index.html">
+				<img src="images/logo12.png" alt="BSB" class="imgprincipal">
+			</a>
+		</header>
         <div>
-            <div class="textregistro">
-                <h1>Registrarse</h1>
-                <label class="textoregistro" for="correo">Correo</label>
-                <input type="text" id="correo" placeholder="Ingrese su correo">
-            </div>
-
+			<div>
+				<img class="imgregistro" src="/images/imgresgistro.jpg" alt="">
+			</div>
 			
-<div style="margin: 4% 0%  0% 25%  ;" id="login-box">
-	<h1   style="color: white;  text-align: center; " > REGISTRO </h1>
-	  <form action="/register" method="POST">
-		  <div class="mb-4">
-			<label for="exampleInputEmail1" class="form-label" style="color: white;"> Correo</label>
-			<input name="correo"  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite su Correo" >
-			<div id="emailHelp" class="form-text" style="color: white;">ingresa un correo que exista</div>
-		  </div>
-		  <div class="mb-4">
-			<label for="exampleInputPassword1" class="form-label" style="color: white;" >Usuario </label>
-			<input name="N_usuario" type="text" class="form-control" id="exampleInputPassword1"  placeholder="Digite su nombre de usuario">
-		  </div>
-		  <div class="mb-4">
-			<label for="exampleInputPassword1" class="form-label" style="color: white;">Contraseña</label>
-			<input name="password" type="password" class="form-control" id="exampleInputPassword1"  placeholder="Digite su contraseña">
-		  </div>
-		  <button type="submit" class="btn btn-primary">Registarse</button>
-	  </form>
-	</h1>
-  </div>
-            
-
-
+			<div>
+				<img class="imagenregistro" src="/images/REGISTRO.jpg" alt="">
+			</div>
+            <div class="textregistro">
+			<form > 
+                <label class="registertext" for="correo"><h4>CORREO</h4></label>
+                <input class="registroform" type="email" id="correo" placeholder="Ingrese su correo">
+			</form>
+			<br>
+			<form > 
+                <label class="registertext" for="Usuario"> <h4>USUARIO</h4></label>
+                <input class="registroform" type="text" id="Usuario" placeholder="Ingrese su Usuario">
+			</form>
+			<br>
+			<form > 
+                <label class="registertext" for="Contraseña"><h4>CONTRASEÑA</h4></label>
+                <input class="registroform" type="password" id="Contraseña" placeholder="Ingrese su Contraseña">
+				<br>
+				<div>
+					<button class="registertext"> Enviar </button>
+				</div>
+	
+			</form>
+			<div class="clear"></div>
+			
         </div>
-
-
-    
+	
 	</main>
-
-
 	<footer>
 		<p>Doble Porcion. &copy; 2021 - Dairon Granada</p>
 	</footer>
+
+	
 </body>
 </html>

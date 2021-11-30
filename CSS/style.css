@@ -33,7 +33,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;  /*Quita el subrayado de los enlaces*/
-    color:black; 
+    color:rgb(63, 28, 28); 
     background:#FFF;
     line-height: 80px;
     padding: 7px;
@@ -100,8 +100,8 @@ span{
 
 /* ------------------------- CLASES ------------------------- */
 
-.principal{
-    width: 1000px;  /*ancho de la página*/
+.main{
+    width: 1200px;  /*ancho de la página*/
     margin: 20px auto;
     border: 2px solid black;
     box-shadow: 3px 3px 3px #333;
@@ -139,6 +139,10 @@ span{
     margin: 20px 65px 20px 47px;
     list-style: none;
     text-align: center;
+}
+.dicografiacenter{
+    margin: 0 0 0 110px  ;
+    
 }
 
 .clear{
@@ -189,4 +193,46 @@ span{
     color: beige;
     text-align: center;
     margin: 50px;
+}
+
+.textregistro a{
+    margin: 50px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+}
+
+
+div ul a{
+    text-decoration: none;  /*Quita el subrayado de los enlaces*/
+    color:rgb(63, 28, 28); 
+    background:#FFF;
+    line-height: 80px;
+    padding: 7px;
+    margin:0 20px;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px #333; /*Añade sombra al contenedor*/
+    font-weight: bold;
+}
+
+.imgregistro{
+    float: left;
+    width: 30%;
+    margin: 0 70px 30px 160px;
+}
+
+.registroform{
+    width: 500px;
+    height: 40px;
+}
+
+
+.registertext{
+    text-align: left;
+    margin: 10% 50px 10px ;
+}
+
+.imagenregistro{
+    float: center;
+    width: 30%;
+    margin: 0 0px 0px 80px;
 }
