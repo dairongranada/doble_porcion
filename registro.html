@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Historia</title>
+	<title>Registro</title>
 </head>
 <body>
 	<main style="animation-play-state: running;" class="main">
@@ -36,12 +36,26 @@
 			<form > 
                 <label class="registertext" for="Contraseña"><h4>CONTRASEÑA</h4></label>
                 <input class="registroform" type="password" id="Contraseña" placeholder="Ingrese su Contraseña">
-				<br>
-				<div>
-					<button class="registertext"> Enviar </button>
-				</div>
-	
 			</form>
+			<form > 
+                <label class="registertext" for="Contraseña"><h4>REPETIR CONTRASEÑA</h4></label>
+                <input class="registroform" type="password" id="Contraseña" placeholder="Ingrese su Contraseña">
+			</form>
+				<br>
+				<form action="mostrarcontra">
+					<label class="mostrarcontratext"  for="mostrarcontra"><h4>mostrar contraseña</h4></label>
+					<input class="checkbox" id="mostrarcontra" type="checkbox">
+				</form>
+				<br>
+				
+				<div>
+					<br>
+					<button class="butomregistertext"><b>REGISTARSE</b></button>
+				</div>
+				
+
+
+
 			<div class="clear"></div>
 			
         </div>
